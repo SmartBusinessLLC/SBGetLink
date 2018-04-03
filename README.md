@@ -9,7 +9,7 @@ To use deep link you need:
 ![Choose Record](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/master/Screenshot_7.png)
 3. Click "Get Link"
 ![Click Get Link](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/master/Screenshot_8.png)
-4. Copy provided link
+4. Copy provided link and use it
 ![Use link](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/master/Screenshot_9.png)
 
 To use this functionality you need to download deployable package and deploy it to a target environment.
