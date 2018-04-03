@@ -18,4 +18,9 @@ Instructions on how to apply deployable package to cloud-hosted environment: htt
 
 Instructions on how to install deployable package on development environment: https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package
 
+# Version information
+This extension was tested for next Dynamics 365 for Finance and Operations version:
+Installed product version : Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017)
+Installed platform version : Update11 (7.0.4679.35176)
+
 The source of information used to create this projects: https://thwidmer.wordpress.com/2017/11/02/deep-links-available-in-every-form/
