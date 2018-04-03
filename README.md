@@ -27,6 +27,10 @@ Installed product version : Microsoft Dynamics 365 for Finance and Operations, E
 
 Installed platform version : Update11 (7.0.4679.35176)
 
+# Changes added with this package
+
+This deployable package adds SBUrl_Extension class to your environment
+
 # Source of information for this project
 
 The source of information used to create this projects: https://thwidmer.wordpress.com/2017/11/02/deep-links-available-in-every-form/
