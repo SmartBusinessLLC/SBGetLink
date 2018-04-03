@@ -12,6 +12,8 @@ To use deep link you need:
 4. Copy provided link and use it
 ![Use link](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/master/Screenshot_9.png)
 
+# Apply to target environment
+
 To use this functionality you need to download deployable package and deploy it to a target environment.
 
 Instructions on how to apply deployable package to cloud-hosted environment: https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system
