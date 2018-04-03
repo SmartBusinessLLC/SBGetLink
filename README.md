@@ -5,7 +5,9 @@ This repository contains a deployable package for implementation of Deep Link in
 Deep link is a functionality that provides you with ability to get web link to a record in a form.
 To turn on functionality:
 1. Go to "User options" -> "Preferences"
+![User options - preferences](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/SBSystemAdministrationCheckBox/Screenshot_10.png)
 2. Check "Turn on deep link"
+![Turn on deep link](https://raw.githubusercontent.com/SmartBusinessLLC/SBGetLink/SBSystemAdministrationCheckBox/Screenshot_11.png)
 
 To use deep link you need:
 1. Open form
