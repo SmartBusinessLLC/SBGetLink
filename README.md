@@ -3,6 +3,10 @@ This repository contains a deployable package for implementation of Deep Link in
 
 # Deep Link
 Deep link is a functionality that provides you with ability to get web link to a record in a form.
+To turn on functionality:
+1. Go to "User options" -> "Preferences"
+2. Check "Turn on deep link"
+
 To use deep link you need:
 1. Open form
 2. Move cursor to a record you need a link to
