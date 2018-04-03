@@ -29,7 +29,19 @@ Installed platform version : Update11 (7.0.4679.35176)
 
 # Changes added with this package
 
-This deployable package adds SBUrl_Extension class to your environment
+AXDeployablePackage_20180403_16_01_31: 
+Changeset:
+ - SBSysUserSetup_EventHandler class
+ - SBGetLinkActive EDT
+ - SysUserSetup.Extension_SB form extension
+ - SBL_en-US label file
+ - SysUserInfo.Extension_SB table extension
+ 
+ With this version you are able to turn on and off the functionality of Deep Link from User options.
+ 
+ ------------------------------------------------------------------------------------------------------------
+
+AXDeployablePackage_20180402_16_50_50: This deployable package adds SBUrl_Extension class to your environment
 
 # Source of information for this project
 
