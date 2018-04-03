@@ -20,7 +20,11 @@ Instructions on how to install deployable package on development environment: ht
 
 # Version information
 This extension was tested for next Dynamics 365 for Finance and Operations version:
+
 Installed product version : Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017)
+
 Installed platform version : Update11 (7.0.4679.35176)
+
+# Source of information for this project
 
 The source of information used to create this projects: https://thwidmer.wordpress.com/2017/11/02/deep-links-available-in-every-form/
