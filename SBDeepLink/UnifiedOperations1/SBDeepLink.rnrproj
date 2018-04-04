@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Configuration>Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Model>SBMod_GetLink</Model>
+    <DBSyncInBuild>False</DBSyncInBuild>
+    <GenerateFormAdaptors>False</GenerateFormAdaptors>
+    <Company>
+    </Company>
+    <Partition>initial</Partition>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <DataEntityExpandParentChildRelations>False</DataEntityExpandParentChildRelations>
+    <DataEntityUseLabelTextAsFieldName>False</DataEntityUseLabelTextAsFieldName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>{b318559a-06dc-4855-a328-9e6270eeb349}</ProjectGuid>
+    <Name>SBDeepLink</Name>
+    <RootNamespace>UnifiedOperations1</RootNamespace>
+    <StartupType>Class</StartupType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Extended Data Types\" />
+    <Folder Include="Form Extensions\" />
+    <Folder Include="Label Files\" />
+    <Folder Include="Table Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AxClass\SBSysUserSetup_EventHandler">
+      <SubType>Content</SubType>
+      <Name>SBSysUserSetup_EventHandler</Name>
+      <Link>Classes\SBSysUserSetup_EventHandler</Link>
+    </Content>
+    <Content Include="AxClass\SBUrl_Extension">
+      <SubType>Content</SubType>
+      <Name>SBUrl_Extension</Name>
+      <Link>Classes\SBUrl_Extension</Link>
+    </Content>
+    <Content Include="AxEdt\SBGetLinkActive">
+      <SubType>Content</SubType>
+      <Name>SBGetLinkActive</Name>
+      <Link>Extended Data Types\SBGetLinkActive</Link>
+    </Content>
+    <Content Include="AxFormExtension\SysUserSetup.Extension_SB">
+      <SubType>Content</SubType>
+      <Name>SysUserSetup.Extension_SB</Name>
+      <Link>Form Extensions\SysUserSetup.Extension_SB</Link>
+    </Content>
+    <Content Include="AxLabelFile\SBL_en-US">
+      <SubType>Content</SubType>
+      <Name>SBL_en-US</Name>
+      <Link>Label Files\SBL_en-US</Link>
+    </Content>
+    <Content Include="AxTableExtension\SysUserInfo.Extension_SB">
+      <SubType>Content</SubType>
+      <Name>SysUserInfo.Extension_SB</Name>
+      <Link>Table Extensions\SysUserInfo.Extension_SB</Link>
+    </Content>
+    <Content Include="SBL.en-US.label.txt">
+      <SubType>Content</SubType>
+      <Name>SBL.en-US.label.txt</Name>
+      <DependentUpon>AxLabelFile\SBL_en-US</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Dynamics\AX\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
+</Project>
